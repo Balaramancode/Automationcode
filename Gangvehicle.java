@@ -16,13 +16,13 @@ public class Gangvehicle {
 		driver.get("http://192.168.1.28/login");
 		driver.manage().window().maximize(); 
 		
-		//				driver.findElement(By.id("mat-input-0")).sendKeys("myrmcapps@gmail.com");
-		//				driver.findElement(By.id("mat-input-1")).sendKeys("sandy@170");
+		//				driver.findElement(By.id("mat-input-0")).sendKeys("email");
+		//				driver.findElement(By.id("mat-input-1")).sendKeys("pass");
 		//				driver.findElement(By.id("mat-input-1")).sendKeys(Keys.ENTER);
 
 		
-		driver.findElement(By.id("mat-input-0")).sendKeys("m41801600@gmail.com");
-		driver.findElement(By.id("mat-input-1")).sendKeys("bala123");
+		driver.findElement(By.id("mat-input-0")).sendKeys("email");
+		driver.findElement(By.id("mat-input-1")).sendKeys("pass");
 		driver.findElement(By.id("mat-input-1")).sendKeys(Keys.ENTER);
 		
 		System.out.println("Raman construction Login successful");
