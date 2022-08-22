@@ -15,8 +15,8 @@ public class VehicleTM {
 		driver.get("http://192.168.1.28");
 		driver.manage().window().maximize(); 
 		
-		driver.findElement(By.id("mat-input-0")).sendKeys("m41801600@gmail.com");
-		driver.findElement(By.id("mat-input-1")).sendKeys("bala123");
+		driver.findElement(By.id("mat-input-0")).sendKeys("email");
+		driver.findElement(By.id("mat-input-1")).sendKeys("pass");
 		driver.findElement(By.id("mat-input-1")).sendKeys(Keys.ENTER);
 		
 //		System.out.println("Login successfully");
